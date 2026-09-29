@@ -8,7 +8,7 @@ A simple Windows controller mapper with selectable mapping cards, named controls
 
 **[Download CHC for Windows x64](https://github.com/ElonTuusk/CHC-Custom-Hotas-Controller/releases/latest/download/CHC-Custom-Hotas-Controller-Windows-x64.zip)**
 
-Extract the entire ZIP, then run **CHC.exe**. Keep the Source and Assets folders and both SharpDX DLLs beside the executable. This is a portable, unsigned early release (0.4.0), with no installer.
+Extract the entire ZIP, then run **CHC.exe**. Keep the Source and Assets folders and both SharpDX DLLs beside the executable. This is a portable, unsigned early release (0.4.1), with no installer.
 
 ## Start using CHC
 
@@ -19,7 +19,7 @@ Extract the entire ZIP, then run **CHC.exe**. Keep the Source and Assets folders
 5. Name your profile and **Save** it. Save personal profiles in the Profiles folder. **Save** remembers the last profile for the next launch; after opening a different profile, save it to make it the startup profile.
 6. Press **Start mappings**, then bind the vJoy device in your game. Output starts stopped each time you launch the app. **Ctrl+Alt+F12** stops output.
 
-Use **Rename** to label controls Roll, Pitch, Yaw, Collective, SA, SB, and so on. Switch channel assignments vary by controller: use live detection rather than assuming the Windows axis name is correct. If each position of two two-position and two three-position switches needs a unique button, configure at least 10 vJoy buttons.
+New and empty profiles already show **Roll, Pitch, Collective, Rotor**, then **Switch 1, Switch 2**, and so on. The verified BETAFPV LiteRadio USB layout is recognized automatically and shows its actual SA, SB, SC, and SD switches. For unrecognized controllers these are starter names, not proof of the physical layout: move each control to check it and use **Rename** if needed. Saved custom names take priority. If each position of two two-position and two three-position switches needs a unique button, configure at least 10 vJoy buttons.
 
 The demo controller can be explored without hardware and sends no output. The public download contains only a demo profile, never the author's personal controller mappings.
 
